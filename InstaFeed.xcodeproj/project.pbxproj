@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDB0427EC122AC08F41CD33B /* Pods_InstaFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D84B1DD45FAAB5042BA0AC2 /* Pods_InstaFeed.framework */; };
 		F6D0050E1C8A608B00EF5A4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D0050D1C8A608B00EF5A4F /* AppDelegate.swift */; };
-		F6D005101C8A608B00EF5A4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D0050F1C8A608B00EF5A4F /* ViewController.swift */; };
 		F6D005131C8A608B00EF5A4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D005111C8A608B00EF5A4F /* Main.storyboard */; };
 		F6D005151C8A608B00EF5A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D005141C8A608B00EF5A4F /* Assets.xcassets */; };
 		F6D005181C8A608B00EF5A4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D005161C8A608B00EF5A4F /* LaunchScreen.storyboard */; };
 		F6D005231C8A608B00EF5A4F /* InstaFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D005221C8A608B00EF5A4F /* InstaFeedTests.swift */; };
 		F6D0052E1C8A608B00EF5A4F /* InstaFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D0052D1C8A608B00EF5A4F /* InstaFeedUITests.swift */; };
+		F6D0053C1C8A66A900EF5A4F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D0053B1C8A66A900EF5A4F /* LoginViewController.swift */; };
+		F6D0053E1C8A6C4000EF5A4F /* InstaFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D0053D1C8A6C4000EF5A4F /* InstaFeedViewController.swift */; };
+		F6D005401C8A729500EF5A4F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D0053F1C8A729500EF5A4F /* Post.swift */; };
+		F6D005421C8A74C500EF5A4F /* pictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D005411C8A74C500EF5A4F /* pictureTableViewCell.swift */; };
+		F6D005441C8A766300EF5A4F /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D005431C8A766300EF5A4F /* UploadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13A5DA1BB57B4476F24CC3B9 /* Pods-InstaFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaFeed/Pods-InstaFeed.release.xcconfig"; sourceTree = "<group>"; };
+		2EAE3BB3A29586FFA609EE5A /* Pods-InstaFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaFeed/Pods-InstaFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		9D84B1DD45FAAB5042BA0AC2 /* Pods_InstaFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D0050A1C8A608B00EF5A4F /* InstaFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D0050D1C8A608B00EF5A4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F6D0050F1C8A608B00EF5A4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6D005121C8A608B00EF5A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6D005141C8A608B00EF5A4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6D005171C8A608B00EF5A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		F6D005291C8A608B00EF5A4F /* InstaFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D0052D1C8A608B00EF5A4F /* InstaFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaFeedUITests.swift; sourceTree = "<group>"; };
 		F6D0052F1C8A608B00EF5A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D0053B1C8A66A900EF5A4F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F6D0053D1C8A6C4000EF5A4F /* InstaFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaFeedViewController.swift; sourceTree = "<group>"; };
+		F6D0053F1C8A729500EF5A4F /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F6D005411C8A74C500EF5A4F /* pictureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pictureTableViewCell.swift; sourceTree = "<group>"; };
+		F6D005431C8A766300EF5A4F /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB0427EC122AC08F41CD33B /* Pods_InstaFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45D750DCFA30E9BB811379B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EAE3BB3A29586FFA609EE5A /* Pods-InstaFeed.debug.xcconfig */,
+				13A5DA1BB57B4476F24CC3B9 /* Pods-InstaFeed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54A58A4EFD82398EF11F6819 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D84B1DD45FAAB5042BA0AC2 /* Pods_InstaFeed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F6D005011C8A608B00EF5A4F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				F6D005211C8A608B00EF5A4F /* InstaFeedTests */,
 				F6D0052C1C8A608B00EF5A4F /* InstaFeedUITests */,
 				F6D0050B1C8A608B00EF5A4F /* Products */,
+				45D750DCFA30E9BB811379B0 /* Pods */,
+				54A58A4EFD82398EF11F6819 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +130,12 @@
 			isa = PBXGroup;
 			children = (
 				F6D0050D1C8A608B00EF5A4F /* AppDelegate.swift */,
-				F6D0050F1C8A608B00EF5A4F /* ViewController.swift */,
 				F6D005111C8A608B00EF5A4F /* Main.storyboard */,
+				F6D005431C8A766300EF5A4F /* UploadViewController.swift */,
+				F6D005411C8A74C500EF5A4F /* pictureTableViewCell.swift */,
+				F6D0053F1C8A729500EF5A4F /* Post.swift */,
+				F6D0053D1C8A6C4000EF5A4F /* InstaFeedViewController.swift */,
+				F6D0053B1C8A66A900EF5A4F /* LoginViewController.swift */,
 				F6D005141C8A608B00EF5A4F /* Assets.xcassets */,
 				F6D005161C8A608B00EF5A4F /* LaunchScreen.storyboard */,
 				F6D005191C8A608B00EF5A4F /* Info.plist */,
@@ -132,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6D005321C8A608B00EF5A4F /* Build configuration list for PBXNativeTarget "InstaFeed" */;
 			buildPhases = (
+				52F1331A95FE2BCDE2F943E4 /* Check Pods Manifest.lock */,
 				F6D005061C8A608B00EF5A4F /* Sources */,
 				F6D005071C8A608B00EF5A4F /* Frameworks */,
 				F6D005081C8A608B00EF5A4F /* Resources */,
+				244D998E8263A054E74119C9 /* Embed Pods Frameworks */,
+				AAA2DBD229A141AF5BC3921F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +290,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		244D998E8263A054E74119C9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaFeed/Pods-InstaFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52F1331A95FE2BCDE2F943E4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAA2DBD229A141AF5BC3921F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaFeed/Pods-InstaFeed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F6D005061C8A608B00EF5A4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6D005101C8A608B00EF5A4F /* ViewController.swift in Sources */,
+				F6D0053C1C8A66A900EF5A4F /* LoginViewController.swift in Sources */,
+				F6D005441C8A766300EF5A4F /* UploadViewController.swift in Sources */,
 				F6D0050E1C8A608B00EF5A4F /* AppDelegate.swift in Sources */,
+				F6D0053E1C8A6C4000EF5A4F /* InstaFeedViewController.swift in Sources */,
+				F6D005401C8A729500EF5A4F /* Post.swift in Sources */,
+				F6D005421C8A74C500EF5A4F /* pictureTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +488,7 @@
 		};
 		F6D005331C8A608B00EF5A4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EAE3BB3A29586FFA609EE5A /* Pods-InstaFeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstaFeed/Info.plist;
@@ -408,6 +500,7 @@
 		};
 		F6D005341C8A608B00EF5A4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A5DA1BB57B4476F24CC3B9 /* Pods-InstaFeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstaFeed/Info.plist;
@@ -484,6 +577,7 @@
 				F6D005341C8A608B00EF5A4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6D005351C8A608B00EF5A4F /* Build configuration list for PBXNativeTarget "InstaFeedTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +586,7 @@
 				F6D005371C8A608B00EF5A4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6D005381C8A608B00EF5A4F /* Build configuration list for PBXNativeTarget "InstaFeedUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +595,7 @@
 				F6D0053A1C8A608B00EF5A4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
